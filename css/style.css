@@ -3,11 +3,7 @@ body {
   color: #323232;
 }
 
-.header {
-  color: #fff;
-  height: 750px;
-  background: url(../img/header_bg.jpg) center;
-}
+
 .wrapper {
   padding: 100px 0;
 }
@@ -16,7 +12,11 @@ body {
 }
 
 
-
+.header {
+  color: #fff;
+  height: 750px;
+  background: url(../img/header_bg.jpg) center;
+}
 header {
   text-align: center;
   max-width: 850px;
@@ -47,6 +47,10 @@ header span {
 }
 .navbar-right {
   margin-top: 10px;
+  width: 150px;
+}
+.navbar-header {
+  width: 150px;
 }
 
 /* FORM */
@@ -85,6 +89,9 @@ button.btn {
 
 /* INFO */
 
+.window-wrapper {
+  min-width: 532px;
+}
 .window {
   width: 532px;
   height: 424px;
@@ -105,7 +112,13 @@ button.btn {
 .info-right {
   margin-left: 45px;
 }
+.info-icon .fa-square {
+  color: #0199e6;
+}
 
+.describe {
+  background: #f7f8fa;
+}
 
 
 
@@ -137,7 +150,20 @@ button.btn {
   header {
     margin: 20px auto;
   }
+  .wrapper {
+    padding: 50px 0;
+  }
+  .navbar-right {
+    width: 150px;
+    float: right;
+    margin-right: -60px;
+    margin-top: -35px;
+  }
+  .navbar-header {
+    width: 150px;
+  }
 }
+
 
 /* Small */
 @media(min-width:768px) and (max-width:991px){
@@ -147,11 +173,26 @@ button.btn {
   button.btn {
     margin-top: 10px;
   }
+  .wrapper {
+    padding: 50px 0;
+  }
+  .navbar-right {
+    width: 150px;
+    float: right;
+  }
+  .navbar-header {
+    width: 150px;
+  }
+}
 
 
 
 /* Medium */
-@media(min-width:992px) and (max-width:1199px){}
+@media(min-width:992px) and (max-width:1199px){
+  .wrapper {
+    padding: 50px 0;
+  }
+}
 
 /* Large */
 @media(min-width:1200px){}

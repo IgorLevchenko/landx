@@ -3,20 +3,23 @@ body {
   color: #323232;
 }
 
-
 .wrapper {
   padding: 100px 0;
 }
+
 .wrapper p {
   color: #727272;
 }
+
 .gray-bg {
   background: #f7f8fa;
 }
+
 .main-header {
   text-align: center;
   margin: 0 auto 70px;
 }
+
 .main-header h2:after {
   content: " ";
   display: block;
@@ -26,43 +29,55 @@ body {
   margin: 20px auto 0;
 }
 
+/* Основной экран */
+
 .header {
   color: #fff;
   height: 750px;
   background: url(../img/header_bg.jpg) center;
 }
+
 header {
   text-align: center;
   max-width: 850px;
   margin: 150px auto 100px;
 }
+
 h1 {
   font-size: 45px;
 }
+
 header h2 {
   font-size: 20px;
 }
+
 header span {
   font-weight: bold;
 }
+
 .solution {
   color: #0199e6;
 }
 
 /* NAVBAR */
+
 .navbar {
   margin-top: 20px;
 }
+
 .navbar .fa-circle {
   color: #fff;
 }
+
 .navbar .fa-stack-1x {
   color: #000;
 }
+
 .navbar-right {
   margin-top: 10px;
   width: 110px;
 }
+
 .navbar-header {
   width: 150px;
 }
@@ -76,6 +91,7 @@ form {
   max-width: 840px;
   background: rgba(0, 0, 0, 0.7);
 }
+
 input.form-control {
   margin: 5px;
   font-size: 16px;
@@ -85,32 +101,35 @@ input.form-control {
   border: 1px solid #02334c;
   border-left: 3px solid #0199e6;
 }
+
 button.btn {
   font: bold 16px Raleway;
   width: 184px;
   height: 54px;
 }
+
 .trial {
   margin-top: 10px;
   float: right;
   margin-right: 300px;
 }
+
 .trial p {
   vertical-align: bottom;
 }
 
-
-
-/* INFO */
+/* Экраны Explore the awesomeness & Describe more about product */
 
 .window-wrapper {
   min-width: 532px;
 }
+
 .window {
   width: 532px;
   height: 424px;
   background: url(../img/window.png) no-repeat;
 }
+
 .info h2:after {
   content: " ";
   display: block;
@@ -118,60 +137,67 @@ button.btn {
   height: 1px;
   background: #0199e6;
   margin-top: 25px;
-
 }
+
 .info-icon {
   float: left;
 }
+
 .info-right {
   margin-left: 45px;
 }
+
 .info-icon .fa-square {
   color: #0199e6;
 }
 
-
-
-/* LandX Features */
+/* Экран LandX Features */
 
 .features .col-md-4 {
   margin-bottom: 50px;
 }
+
 .feature-box {
   text-align: center;
 }
+
 .feature-box h4 {
   font: bold 20px Raleway;
   padding: 10px 0;
 }
+
 .feature-box i {
   font-size: 50px;
   color: #0199e6;
 }
 
-
-/* Pricing Table */
+/* Экран Pricing Table */
 
 .price-box {
   background: #fff;
 }
+
 .price-header {
   text-align: center;
   background: #000;
   color: #fff;
   padding: 15px;
 }
+
 .price-header h4 {
   font: 24px Raleway;
 }
+
 .price-header p {
   font-size: 16px;
   color: #fff;
 }
+
 .price-header span {
   font-weight: bold;
   color: #0199e6;
 }
+
 .price-box ul {
   list-style: none;
   margin: 0;
@@ -183,6 +209,7 @@ button.btn {
   padding: 10px 20px;
   border-bottom: 1px dotted #727272;
 }
+
 .price-box>ul span {
   float: right;
   font-weight: bold;
@@ -190,12 +217,13 @@ button.btn {
 
 .price-sign {
   padding: 20px;
-
 }
+
 .price-sign span {
   font-size: 18px;
   font-weight: bold;
 }
+
 .price-sign .btn {
   float: right;
   width: 96px;
@@ -207,35 +235,38 @@ button.btn {
 .premium .price-header {
   background: #0199e6;
 }
+
 .premium .btn {
   color: #fff;
   background: #0199e6;
 }
+
 .premium .btn:hover {
   background: #019fff;
 }
+
 .premium .price-header span {
   color: #fff;
 }
 
+/* Экран Watch Video */
 
 .video .col-md-12 {
   text-align: center;
   margin-bottom: 50px;
 }
 
-
 .video p {
   font: bold 18px Raleway;
   color: #000;
 }
+
 .video i {
   font-size: 24px;
   color: #0199e6;
 }
 
-
-
+/* Экран Product Screenshots */
 
 .screenshots .row {
   padding: 0;
@@ -249,25 +280,22 @@ button.btn {
 .carousel-indicators {
   top: 250px;
 }
+
 .carousel-indicators li {
   background: #0199e6;
   opacity: 0.5;
 }
+
 .carousel-indicators li.active {
   background: #0199e6;
   opacity: 1;
 }
 
-
-
-
-
-
+/* Экран Trusted by Thouthands */
 
 .trusted .col-md-3>div {
   margin: 0 auto;
 }
-
 
 .brand {
   height: 45px;
@@ -278,24 +306,28 @@ button.btn {
   width: 127px;
   background-position: 0px 0px;
 }
+
 .mashable {
   width: 140px;
   background-position: -160px 0;
 }
+
 .tnw {
   width: 115px;
   background-position: -320px 0;
 }
+
 .n-geographic {
   width: 140px;
   background-position: -457px 0;
 }
 
-
+/* QUOTES */
 
 .quote {
   margin-top: 50px;
 }
+
 .quote .col-md-4 {
   text-align: center;
 }
@@ -308,6 +340,7 @@ button.btn {
   margin-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
+
 .quote-icon {
   background: #fff;
   width: 40px;
@@ -319,9 +352,11 @@ button.btn {
   left: 50%;
   margin-left: -20px;
 }
+
 .quote .fa-square {
   color: #0199e6;
 }
+
 .quote-arrow {
   position: absolute;
   width: 29px;
@@ -336,25 +371,72 @@ button.btn {
   font-weight: bold;
   color: #0199e6;
 }
+/* Экран Get Started */
 
+.get-started {
+  background: url(../img/get_started_bg.jpg) center;
+  font: bold 20px Raleway;
+  color: #fff;
+  height: 451px;
+}
 
+.get-started p {
+  color: #fff;
+  margin-top: 40px;
+}
 
+.get-started .col-md-12 {
+  text-align: center;
+}
 
+.get-started h2 {
+  font: bold 35px Raleway;
+  margin: 40px 0;
+}
 
+.get-started .btn {
+  background: #0199e6;
+}
 
+.get-started .btn:hover {
+  background: #019fff;
+}
+/* Экран Contact us now */
 
+.help .col-md-12 {
+  text-align: center;
+}
 
+.help h4,
+.help a {
+  font: bold 24px Raleway;
+}
 
+.help a {
+  font-size: 18px;
+  color: #0199e6;
+}
 
+/* FOOTER */
 
+.footer {
+  text-align: center;
+}
 
+.footer img {
+  margin-bottom: 20px;
+}
 
+.footer .fa-square {
+  color: #919191;
+}
 
-
-
-
+.footer a:hover .fa-square {
+  color: #ccc;
+}
 /* Extra Small */
-@media(max-width:767px){
+
+@media(max-width:767px) {
   input.form-control {
     width: 100%;
     height: 45px;
@@ -385,21 +467,17 @@ button.btn {
     text-align: center;
   }
   .carousel-indicators {
-  top: 530px;
-  }
-  .carousel-inner img {
-    max-width: 250px;
+    top: 530px;
   }
   .quote .col-md-4 {
     margin-bottom: 30px;
   }
 }
-
-
 /* Small */
-@media(min-width:768px) and (max-width:991px){
+
+@media(min-width:768px) and (max-width:991px) {
   form {
-  max-width: 640px;
+    max-width: 640px;
   }
   button.btn {
     margin-top: 10px;
@@ -421,21 +499,28 @@ button.btn {
     text-align: center;
   }
   .carousel-indicators {
-  top: 700px;
+    top: 570px;
+    margin-left: -190px;
+  }
+  .carousel-inner img {
+    max-width: 250px;
+    margin-bottom: 20px;
   }
   .quote .col-md-4 {
     margin-bottom: 50px;
   }
 }
-
-
-
 /* Medium */
-@media(min-width:992px) and (max-width:1199px){
+
+@media(min-width:992px) and (max-width:1199px) {
   .wrapper {
     padding: 50px 0;
   }
+  .carousel-inner img {
+    max-width: 300px;
+    margin: 20px;
+  }
 }
-
 /* Large */
-@media(min-width:1200px){}
+
+@media(min-width:1200px) {}

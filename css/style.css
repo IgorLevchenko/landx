@@ -10,7 +10,21 @@ body {
 .wrapper p {
   color: #727272;
 }
-
+.gray-bg {
+  background: #f7f8fa;
+}
+.main-header {
+  text-align: center;
+  margin: 0 auto 70px;
+}
+.main-header h2:after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 68px;
+  background: #0199e6;
+  margin: 20px auto 0;
+}
 
 .header {
   color: #fff;
@@ -47,7 +61,7 @@ header span {
 }
 .navbar-right {
   margin-top: 10px;
-  width: 150px;
+  width: 110px;
 }
 .navbar-header {
   width: 150px;
@@ -116,16 +130,93 @@ button.btn {
   color: #0199e6;
 }
 
-.describe {
-  background: #f7f8fa;
+
+
+/* LandX Features */
+
+.features .col-md-4 {
+  margin-bottom: 50px;
+}
+.feature-box {
+  text-align: center;
+}
+.feature-box h4 {
+  font: bold 20px Raleway;
+  padding: 10px 0;
+}
+.feature-box i {
+  font-size: 50px;
+  color: #0199e6;
 }
 
 
+/* Pricing Table */
 
+.price-box {
+  background: #fff;
+}
+.price-header {
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding: 15px;
+}
+.price-header h4 {
+  font: 24px Raleway;
+}
+.price-header p {
+  font-size: 16px;
+  color: #fff;
+}
+.price-header span {
+  font-weight: bold;
+  color: #0199e6;
+}
+.price-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
 
+.price-box li {
+  padding: 10px 20px;
+  border-bottom: 1px dotted #727272;
+}
+.price-box>ul span {
+  float: right;
+  font-weight: bold;
+}
 
+.price-sign {
+  padding: 20px;
 
+}
+.price-sign span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.price-sign .btn {
+  float: right;
+  width: 96px;
+  height: 42px;
+  margin-top: -10px;
+  color: #727272;
+}
 
+.premium .price-header {
+  background: #0199e6;
+}
+.premium .btn {
+  color: #fff;
+  background: #0199e6;
+}
+.premium .btn:hover {
+  background: #019fff;
+}
+.premium .price-header span {
+  color: #fff;
+}
 
 
 
@@ -154,9 +245,9 @@ button.btn {
     padding: 50px 0;
   }
   .navbar-right {
-    width: 150px;
+    width: 110px;
     float: right;
-    margin-right: -60px;
+    margin-right: -45px;
     margin-top: -35px;
   }
   .navbar-header {
@@ -177,8 +268,8 @@ button.btn {
     padding: 50px 0;
   }
   .navbar-right {
-    width: 150px;
     float: right;
+    margin-right: 15px;
   }
   .navbar-header {
     width: 150px;
